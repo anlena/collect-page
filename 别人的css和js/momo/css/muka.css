@@ -1,0 +1,111 @@
+.mk-head{
+	background: #5f9aed;
+	color: #FFFFFF;
+	padding: .875rem .875rem 2rem;
+}
+.mk-head span{
+	width: 2rem;
+	height: 2rem;
+	border: 1px solid #a0c3f5;
+}
+.mk-head b{
+	width: 12rem;
+}
+.mk-headInfo{
+	font-size: .9rem;
+	background: #FFFFFF;
+	border-radius: .3rem;
+	margin: -1.4rem .875rem 0 .875rem;
+	padding: .4rem .875rem 0 .875rem;
+	position: relative;
+}
+.shadow{
+	-moz-box-shadow: 3px 3px 4px #ccc;
+    -webkit-box-shadow: 3px 3px 4px #ccc;
+    box-shadow: 3px 3px 4px #ccc;
+}
+.mk-headInfo .showSheet{
+	font-size: .9rem;
+}
+.mk-headInfo .showSheet:before{
+	content: '';
+}
+.mk-headInfo .showSheet:after{
+	content: "\e685";
+	color: #1aad19;
+	font-size: 1.3rem;
+	position:absolute;
+}
+.mk-headInfo ul{
+	position: relative;
+	padding-bottom: .4rem;
+}
+.mk-headInfo ul li{
+	height: 1.6rem;
+	line-height: 1.6rem;
+	font-size: .9rem;
+	color: #bbb;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+}
+
+.mk-headInfo ul li b{
+	color: #666;
+	width: 70%;
+	display: inline-block;
+}
+.mk-headInfo p{
+	height: 3rem;
+	line-height: 3rem;
+	color: #666;
+}
+.mk-headInfo .mk-button{
+	border: 1px solid #CCCCCC;
+	background: #eee;
+	height: 2rem;
+	padding: 0 .875rem;
+	border-radius: .2rem;
+	width: 4rem;
+	text-align: center;
+}
+.mk-list{
+	padding: 0 .875rem;
+	font-size: .9rem;
+}
+.mk-list h3{
+	height: 3rem;
+	line-height: 3rem;
+	font-size: .9rem;
+	color: #666;
+}
+
+.mk-list .mk-list-ul{
+	border-left: .2rem solid #1aad19;
+	border-radius: 2px;
+	background: #fff;
+	padding: .5rem ;
+	margin-bottom: .7rem;
+}
+.mk-list .mk-list-ul li{
+	height: 1.4rem;
+	line-height: 1.4rem;
+	color: #bbb;
+}
+.mk-list .mk-list-ul li b{
+	color: #666;
+}
+.text_right{
+	text-align: right;
+}
+.mk-templet{
+	margin-top: 1rem;
+}
+.kt-mk{
+	width: 95%;margin-bottom: .5rem;
+}
+.kt-mk a{
+border-radius: 5px;
+}

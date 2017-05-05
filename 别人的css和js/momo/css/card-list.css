@@ -1,0 +1,89 @@
+.view {
+	min-height: 100vh;
+}
+
+
+/*******会员所属变更*******/
+
+.search_box {
+	position: relative;
+	padding: 0.625rem;
+}
+
+.input-wrapper {
+	padding: .6rem .8rem;
+	margin-right: .625rem;
+	border: 1px solid #ccc;
+	background: #fff;
+	border-radius: 3px;
+}
+
+.input-wrapper:before {
+	display: inline-block;
+	padding-right: .3rem;
+	font-family: "iconfont";
+	content: "\e688";
+	font-size: 14px;
+	color: #b2b2b2;
+	font-weight: bold;
+}
+
+.search-input {
+	font-size: 0.812rem;
+	width: 84%;
+}
+
+.search-submit {
+	width: 18%;
+	border: 1px solid #ccc;
+	background: #e5e5e5;
+	border-radius: 3px;
+	font-size: .875rem;
+	line-height: 2.4;
+	text-align: center;
+}
+
+
+/*******会员所属变更结束*******/
+
+
+/*******确定会员所属变更*******/
+
+.card-list {
+	-webkit-flex: 1 1 0;
+	flex: 1 1 0;
+	background: #fff;
+}
+
+.card-list ul li {
+	padding: 0.75rem 0.625rem;
+	position: relative;
+}
+
+.card-list .img_wrap {
+	width: 2.6rem;
+	height: 2.6rem;
+}
+
+.card-list .item-inner {
+	padding: 0 0.5rem;
+	font-size: 0.875rem
+}
+
+.item-inner h2 {
+	font-size: 0.93rem;
+	line-height: 1.6rem
+}
+.card-list .ui-btn a {
+	padding: 0 0.8rem;
+	border-radius: 3px;
+	font-size: 0.875rem;
+	line-height: 2.5;
+	color: #fff;
+	background: #45b642;
+}
+.card-list .ui-btn .btn-orange{
+	background: #ff9d10;
+}
+
+/*******确定会员所属变更结束*******/
