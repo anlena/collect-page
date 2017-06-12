@@ -29,5 +29,14 @@
       -webkit-box-orient: vertical;
       word-break: break-word;
   }
-
   ```
+
+* 固定宽度内文字右侧对不齐
+
+  ```css
+  div{
+    text-align: justify;
+    text-justify: inter-ideograph;
+  }
+  ```
+
